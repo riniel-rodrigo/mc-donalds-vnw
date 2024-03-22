@@ -14,7 +14,6 @@ export const SectionBanner = styled.section`
     justify-content:space-around;
     align-items:center;
     padding-top: 4.5rem;
-    
 `;
 
 export const ImgBanner = styled.img`
@@ -27,7 +26,6 @@ export const textBannner = styled.h1`
     font-size:3.125rem;
     color:#FFF;
     .colorRed {color: #DB0007; }
-
 `;
 
 export const SectionProdutos = styled.section`
@@ -57,4 +55,11 @@ export const Title = styled.h1`
     font-size:2.25rem;
     font-weight:600;
     color: #FFF;
+`;
+
+export const RowCards = styled.section`
+    display:flex;
+    justify-content:center;
+    gap:5rem;
+    width:100%;
 `;

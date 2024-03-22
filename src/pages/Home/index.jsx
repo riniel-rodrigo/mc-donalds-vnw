@@ -1,11 +1,15 @@
 import bigmac from "../../assets/bigmac.svg"
 import potato from "../../assets/potato.svg"
 import icecream from "../../assets/icecream.svg"
+import promotion1 from "../../assets/promotion-1.svg"
+import promotion2 from "../../assets/promotion-2.svg"
+import promotion3 from "../../assets/promotion-3.svg"
 
 import Header from "../../components/Header/index.jsx"
-import Cards from "./components/Cards/index.jsx"
+import Card from "./components/Cards/index.jsx"
 
 import * as S from "./styles.js"
+
 export default function Home() {
 
     return (
@@ -30,9 +34,11 @@ export default function Home() {
 
                 <S.Container2>
                 <S.Title>Promoção</S.Title>
-                    <section>
-                        <Cards />
-                    </section>
+                    <S.RowCards>
+                        <Card image={promotion1} text={"Que tal um #MéquiNoSofá?"}/>
+                        <Card image={promotion2} text={"Venha conhecer nossa nova loja"}/>
+                        <Card image={promotion3} text={"Confira as medidas que o Méqui adotou!"}/>
+                    </S.RowCards>
                 </S.Container2>
             </main>
 

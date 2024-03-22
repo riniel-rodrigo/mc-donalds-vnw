@@ -6,16 +6,13 @@ import * as S from './styles'
 
 export default function Header({yellow, bold, borderSolid}) {
 
-
   return (
 
     <S.Header>
 
       <S.Img src={logo} alt="Logo MC DONALD'S" />
 
-
       <S.AppSection>
-
           <S.AppDiv href="">
             <img src={cell1} alt="APP MAC" />
             Baixe o App
@@ -30,6 +27,4 @@ export default function Header({yellow, bold, borderSolid}) {
     </S.Header>
 
   )
-
-
 }
