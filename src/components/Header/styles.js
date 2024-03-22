@@ -11,6 +11,7 @@ export const Header = styled.header`
 export const Img = styled.img`
     width:3.75rem;
     height:3.125rem;
+    cursor:pointer;
 `;
 
 export const AppSection = styled.section`
@@ -31,4 +32,5 @@ export const AppDiv = styled.div `
     font-size:0.75rem;
     border: ${(props) => (props.borderSolid ? 'solid 1px black' : 'none')};
     border-radius:0.5rem;
+    cursor:pointer;
 `;
