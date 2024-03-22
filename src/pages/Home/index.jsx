@@ -7,6 +7,7 @@ import promotion3 from "../../assets/promotion-3.svg"
 
 import Header from "../../components/Header/index.jsx"
 import Card from "./components/Cards/index.jsx"
+import Footer from "../../components/Footer/index.jsx"
 
 import * as S from "./styles.js"
 
@@ -41,6 +42,8 @@ export default function Home() {
                     </S.RowCards>
                 </S.Container2>
             </main>
+
+            <Footer />
 
         </>
     )
