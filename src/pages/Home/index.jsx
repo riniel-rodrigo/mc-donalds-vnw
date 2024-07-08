@@ -34,7 +34,7 @@ export default function Home() {
                 </S.Container1>
 
                 <S.Container2>
-                <S.Title>Promoção</S.Title>
+                    <S.Title>Promoção</S.Title>
                     <S.RowCards>
                         <Card image={promotion1} text={"Que tal um #MéquiNoSofá?"}/>
                         <Card image={promotion2} text={"Venha conhecer nossa nova loja"}/>

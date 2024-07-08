@@ -10,9 +10,19 @@ export const Card = styled.div`
     transition: 0.3s ease;
 
     &:hover{
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 15px 0px;
-    cursor:pointer;
-}
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 15px 0px;
+        cursor:pointer;
+    }
+
+    @media (max-width: 1024px) {
+        width:15rem;
+        height:16.875rem;
+    }
+
+    @media (max-width: 800px) {
+        width:12rem;
+        height:13.125rem;
+    }
 `;
 
 export const ImgCard = styled.img`
@@ -27,11 +37,20 @@ export const SectionCard = styled.div`
     justify-content:space-between;
     height:100%;
     padding:0.5rem 2rem 1.5rem 2rem;
+
+    @media (max-width: 800px) {
+        padding:0.75rem 0.5rem;
+    
+    }
 `;
 
 export const textCard = styled.p`
     font-size:1.15rem;
     font-weight:600;
+
+    @media (max-width: 800px) {
+        font-size:0.90rem;
+    }
 `;
 
 export const buttonCard = styled.button`
@@ -47,6 +66,12 @@ export const buttonCard = styled.button`
 
     &:hover {
         transform: scale(1.01); /* Aumenta ligeiramente o tamanho do botão */
+    }
+
+    @media (max-width: 800px) {
+        width:5rem;
+        height:2rem;
+        font-size:0.70rem;
     }
     
 `;
